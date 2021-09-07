@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 bool =[]
 gravity_bool = []
 
-df = pd.read_csv("stars.csv")
+df = pd.read_csv("star_with_gravity.csv")
 df.head()
 
 for i in df.distance:
